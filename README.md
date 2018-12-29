@@ -1,5 +1,6 @@
 # WalkingGroupApp
-## Walking Group: Iteration 1 User Stories
+## Iteration 1 User Stories
+====================================
 
 1. Create Account, Log-in, Log-out,
 ------------------------------------------
@@ -42,7 +43,7 @@ General Notes:
 - From any screen, the Android back button must do the "reasonable" thing.
 - Strings shown to the user must be in string.xml
 
-Iteration 2 User Stories
+## Iteration 2 User Stories
 ====================================
 
 User Information
@@ -58,7 +59,6 @@ User Information
 
 * As a parent of a child using the system I want to be able to see and edit the information of anyone I monitor (my children), which includes the same type of information as entered about me (see above), so other users can better contact me or my child.
 
-
 ------------------------------------
 Walking Groups
 ------------------------------------
@@ -67,7 +67,6 @@ Walking Groups
 * As a member of a walking group, when I select the group I am in I can see the names of users who are members in the walking group, plus for each of those members I can see more in-depth info on all users who monitor them. I use this to remember the names of other kids in my walking group, plus look up contact info of their parents whenever there is a problem and I need to contact them.
 
 * As a parent with children in walking groups, when I select the group which my child is a member of, I can see the names of users who are members in the walking group, plus for each of those members I can see more in-depth info on all users who monitor them. I use this to know the names of other kids my child is walking with, plus look up contact info of their parents whenever there is a problem and I need to contact them.
-
 
 ------------------------------------
 On Walk Features
@@ -78,9 +77,9 @@ On Walk Features
 
 * As a parent using the parent's dashboard, for each user that I see on the map it indicates how long it has been since that user's latest location was updated. This helps me know if location data is still being received from the users or if they have gone offline.
 
+## Iteration 2 User Stories
+====================================
 
-
-------------------------------------
 In-App Messages
 ------------------------------------
 * As a user, I am able to view any messages which have been sent to me. I can see which messages are read vs unread. From Parent's Dashboard I can always see how many new messages are waiting for me, and easily view (at least unread) messages. App checks for new (or unread) messages every minute. This allows me to receive messages from my children, children in my group, or the leader of a group I'm a member of.
