@@ -1,7 +1,7 @@
 # WalkingGroupApp
 ## Iteration 1 User Stories
 
-1. Create Account, Log-in, Log-out,
+Create Account, Log-in, Log-out,
 ------------------------------------------
 - As a new user, I want to be able to launch the app and signs up using my name, email, and enter a password.
     (Email addresses are used to uniquely identify accounts.)
@@ -10,7 +10,7 @@
 - As a user, I can log out to have the app forget my login credentials so that the next time I launch it I am asked for my email address and password again.
 
 
-2. Manage Account Monitoring
+Manage Account Monitoring
 ------------------------------------------
 - As a user (such as a parent), I am able "monitor" the account of another user (such as my child).
 - As a user, I am able to have 0 or more users monitoring me, and I may monitor 0 or more other users.
@@ -24,7 +24,7 @@
     The parent account must already exist and is identified by its email address.
 
 
-3. Create, View, and Join a Walking Group
+Create, View, and Join a Walking Group
 ------------------------------------------
 - As a user, I can see on a map, centred on my GPS coordinates, locations (like schools) to which nearby walking groups around walk.
 - As a user, I can create a new walking group by specifying the location (like a school) to which we will be walking, and one meeting place for the group. When creating it, I give the group a descriptive name.
