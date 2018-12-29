@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item android:id="@+id/dashboard"
+        android:title="@string/dashboard"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/userProfile"
+        android:title="@string/user_profile"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/monitorItem"
+        android:title="@string/monitor"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/permissions"
+        android:title="@string/permission_request"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/myGroups"
+        android:title="@string/my_groups"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/messages"
+        android:title="@string/messages"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/store"
+        android:title="@string/store"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/leaderboard"
+        android:title="@string/leaderboard"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/logoutItem"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+</menu>

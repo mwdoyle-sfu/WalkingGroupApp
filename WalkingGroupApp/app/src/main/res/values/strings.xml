@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">Walking Group</string>
+
+    <!-- menu strings -->
+    <string name="dashboard">Dashboard</string>
+    <string name="user_profile">Profile</string>
+    <string name="monitor">Monitor</string>
+    <string name="add_new_group">Add New Group</string>
+    <string name="my_groups">My Groups / Create Group</string>
+    <string name="messages">Messages</string>
+    <string name="logout">Logout</string>
+
+    <!-- Strings related to login -->
+    <string name="login">Login:</string>
+    <string name="password">Password:</string>
+    <string name="sign_in">Sign In</string>
+    <string name="not_a_member_sign_up_here">Not a Member? Sign Up Here</string>
+    <string name="create_account">Create Account</string>
+
+    <!-- Strings related to Create User -->
+    <string name="create">Create</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_name">Name</string>
+    <string name="defaultuserpicture">defaultUserPicture</string>
+
+    <!-- Monitoring activity -->
+    <string name="add_user_to_be_monitored_by">Add user to be monitored by</string>
+    <string name="add_user_to_monitor">Add user to monitor</string>
+    <string name="monitored_by">Monitored By</string>
+    <string name="monitoring">Monitoring</string>
+
+    <!-- General dialog strings -->
+    <string name="ok">OK</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Create New Group Activity Strings-->
+    <string name="map">Map</string>
+
+    <!-- Error handling string -->
+    <string name="error">Error</string>
+    <string name="connection_error">Unable to reach server. %s</string>
+    <string name="invalid_email">Email Address is Invalid</string>
+    <string name="empty_password">Password is Empty</string>
+    <string name="empty_group_name">Group Name is Empty</string>
+    <string name="empty_username">Name is Empty</string>
+    <string name="address_error">Address not available</string>
+
+    <!-- Autosign in -->
+    <string name="auto_signin_error">There was an Issue AutoSigning in, please try again</string>
+    <string name="logging_in">Logging In…</string>
+
+    <!-- Strings related to map -->
+    <string name="add_user">Add User</string>
+    <string name="remove_user">Remove User</string>
+    <string name="add_remove_user">Add/Remove User from group:\n%1$s</string>
+    <string name="leaders_name">Leader\'s Name: %1$s</string>
+    <string name="leaders_email">Leader\'s Email: %1$s</string>
+    <string name="select_monitor_monitoree">Select Monitor / Monitoree</string>
+    <string name="group_number">Group %1$s</string>
+    <string name="members">Members</string>
+
+    <!-- Strings related to myGroups -->
+    <string name="member_of_groups">Member of Groups</string>
+    <string name="leader_of_groups">Leader of Groups</string>
+    <string name="post">Post</string>
+    <string name="Emergency">Emergency</string>
+    <string name="msg_group">Message Group: %1$s</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="create_group">Create Group</string>
+
+    <!-- Strings related to EmbeddedCreateGroup-->
+    <string name="embedded_set_meeting">Set Meeting</string>
+    <string name="embedded_set_dest">Set Dest</string>
+    <string name="group_name">Group Name:</string>
+    <string name="embedded_leader_s_email">Leader\'s Email</string>
+    <string name="leader_destination">Please Select Destination Location</string>
+    <string name="user_destination">Please Select Meeting Location</string>
+    <string name="meeting">Meeting</string>
+    <string name="destination">Destination</string>
+    <string name="embedded_location_not_set">UserLocation not set</string>
+    <string name="embedded_destination">Destination</string>
+
+    <!-- Strings related to Dashboard-->
+    <string name="dashboard_unread_message">UNREAD MSG:</string>
+    <string name="last_time_update"> - Last Updated: </string>
+    <string name="time_format">%1$d min, %2$d sec</string>
+
+    <!-- profile strings -->
+    <string name="teachers_name">Teachers Name:</string>
+    <string name="birth_date">Birth Date:</string>
+    <string name="name">Name:</string>
+    <string name="userImage">UserImage</string>
+    <string name="date">Date</string>
+    <string name="addressColon">Address:</string>
+    <string name="home_phone_number">Home Phone Number:</string>
+    <string name="cell_phone_number">Cell Phone Number:</string>
+    <string name="email_colon">Email:</string>
+    <string name="current_grade_colon">Current Grade:</string>
+    <string name="optional">(Optional)</string>
+    <string name="contact_info">Contact Info:</string>
+    <string name="save">Save</string>
+    <string name="updated_profile">Profile has been updated</string>
+    <string name="parent_name">Parent Name:</string>
+
+    <!-- profile errors -->
+    <string name="message">Message</string>
+    <string name="email_invalid">Email address is invalid</string>
+    <string name="phone_invalid">Phone is invalid</string>
+    <string name="empty_email">email is empty</string>
+    <string name="empty_cell">cellPhone is empty</string>
+    <string name="empty_home">homePhone is empty</string>
+    <string name="empty_address">address is empty</string>
+    <string name="empty_name">name is empty</string>
+
+    <!-- Messages activity string -->
+    <string name="unread_messages">Unread Messages</string>
+    <string name="read_messages">Read Messages</string>
+    <string name="panic_txt">Panic:</string>
+    <string name="emerg_txt">Emergency:</string>
+
+    <!-- Map activity string -->
+    <string name="start_walk">Start walk</string>
+    <string name="end_walk">End walk</string>
+    <string name="msg">Msg</string>
+    <string name="start">Start</string>
+    <string name="finish">Finish</string>
+    <string name="panic">Panic</string>
+    <string name="choose_group">Choose group to walk with</string>
+    <string name="you_have_arrived">You have arrived at your location</string>
+    <string name="message_sent">Message sent</string>
+    <string name="added_to_group">Added %s to group</string>
+    <string name="removed_from_group">Removed %s from group</string>
+    <string name="send_message">Send a message</string>
+    <string name="earned_points">Congratulations you earned points!</string>
+
+    <!-- Store activity -->
+    <string name="store">Store</string>
+    <string name="remaining_points">Remaining Points:</string>
+    <string name="backgrounds_100_points">Backgrounds</string>
+    <string name="colour_palette_100_points">Colour Palette</string>
+    <string name="default_string">Default</string>
+    <string name="store_cost_100_pts">100 Pts</string>
+    <string name="store_remaining_points">Remaining Points:</string>
+    <string name="store_purchase_successful">Purchase successful!</string>
+    <string name="store_not_enough_points">Not Enough Points!</string>
+
+    <!-- Leaderboard Activity String -->
+    <string name="leaderboard">Leaderboard</string>
+    <string name="leaderboard_display_points">%1$s  %2$s     -     %3$d Points</string>
+
+
+    <!-- Permissions string -->
+    <string name="permission_request">Permissions</string>
+    <string name="active_permissions">Pending Requests</string>
+    <string name="previous_permissions">Previous Requests</string>
+    <string name="lead_group_request">%1$s wants to lead group: %2$s</string>
+    <string name="apply">Apply</string>
+</resources>

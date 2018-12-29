@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teal.a276.walkinggroup.activities.Monitor">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/monitored_by"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/monitoredByListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="142dp"
+        android:layout_marginLeft="144dp" />
+
+    <TextView
+        android:id="@+id/monitoringTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:layout_marginEnd="142dp"
+        android:layout_marginStart="143dp"
+        android:text="@string/monitoring"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/monitoringListView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginRight="142dp"
+        android:layout_marginLeft="143dp" />
+
+    <ListView
+        android:id="@+id/monitoredByListView"
+        android:layout_width="260dp"
+        android:layout_height="143dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginStart="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/addToMonitoredByBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/monitoringListView"
+        android:layout_width="260dp"
+        android:layout_height="158dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginStart="62dp"
+        app:layout_constraintBottom_toTopOf="@+id/addToMonitorBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addToMonitorBtn"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginStart="154dp"
+        android:text="@string/add"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/addToMonitoredByBtn"
+        android:layout_width="76dp"
+        android:layout_height="37dp"
+        android:layout_marginBottom="7dp"
+        android:layout_marginEnd="154dp"
+        android:layout_marginStart="154dp"
+        android:text="@string/add"
+        app:layout_constraintBottom_toTopOf="@+id/monitoringTv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

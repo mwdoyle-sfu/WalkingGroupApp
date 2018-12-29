@@ -1,0 +1,186 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background_default_box</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme_box" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background_default_box</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme_circle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background_default_circle</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <style name="AppTheme_wave" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowBackground">@drawable/background_default_wave</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- Blue Box -->
+    <style name="AppTheme.Light.Blue.Box" parent="AppTheme_box" >
+        <item name="android:windowBackground">@drawable/background_blue_box</item>
+        <item name="colorPrimary">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Box.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Box.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Light.Blue.Box.popupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Blue Wave -->
+    <style name="AppTheme.Light.Blue.Wave" parent="AppTheme_box" >
+        <item name="android:windowBackground">@drawable/background_blue_wave</item>
+        <item name="colorPrimary">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Wave.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Wave.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Light.Blue.Wave.popupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Blue Circle -->
+    <style name="AppTheme.Light.Blue.Circle" parent="AppTheme_box" >
+        <item name="android:windowBackground">@drawable/background_blue_circle</item>
+        <item name="colorPrimary">@color/blueColorPrimaryDark</item>
+        <item name="colorAccent">@color/blueColorPrimary</item>
+        <item name="colorPrimaryDark">@color/blueColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Circle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Light.Blue.Circle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Light.Blue.Circle.popupOverlay" parent="ThemeOverlay.AppCompat" />
+
+
+    <!-- Purple Wave -->
+    <style name="AppTheme.Dark.Purple.Wave" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_purple_wave</item>
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Wave.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Wave.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Purple.Wave.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Purple Circle -->
+    <style name="AppTheme.Dark.Purple.Circle" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_purple_circle</item>
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Circle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Circle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Purple.Circle.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Purple box -->
+    <style name="AppTheme.Dark.Purple.Box" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_purple_box</item>
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Box.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Purple.Box.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Purple.Box.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Purple Wave -->
+    <style name="AppTheme.Dark.Green.Wave" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_green_wave</item>
+        <item name="colorPrimary">@color/darkColorPrimary2</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Wave.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Wave.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Green.Wave.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Purple Circle -->
+    <style name="AppTheme.Dark.Green.Circle" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_green_circle</item>
+        <item name="colorPrimary">@color/darkColorPrimary2</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Circle.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Circle.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Green.Circle.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+
+    <!-- Purple box -->
+    <style name="AppTheme.Dark.Green.Box" parent="Theme.AppCompat">
+        <!-- Dark theme base colours -->
+        <item name="android:windowBackground">@drawable/background_green_box</item>
+        <item name="colorPrimary">@color/darkColorPrimary2</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/darkColorAccent</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Box.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.Dark.Green.Box.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.Dark.Green.Box.PopupOverlay" parent="ThemeOverlay.AppCompat" />
+</resources>
