@@ -1,6 +1,5 @@
 # WalkingGroupApp
 ## Iteration 1 User Stories
-====================================
 
 1. Create Account, Log-in, Log-out,
 ------------------------------------------
@@ -44,7 +43,6 @@ General Notes:
 - Strings shown to the user must be in string.xml
 
 ## Iteration 2 User Stories
-====================================
 
 User Information
 ------------------------------------
@@ -77,8 +75,7 @@ On Walk Features
 
 * As a parent using the parent's dashboard, for each user that I see on the map it indicates how long it has been since that user's latest location was updated. This helps me know if location data is still being received from the users or if they have gone offline.
 
-## Iteration 2 User Stories
-====================================
+## Iteration 3 User Stories
 
 In-App Messages
 ------------------------------------
