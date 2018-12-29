@@ -1,8 +1,7 @@
 # WalkingGroupApp
 ## Iteration 1 User Stories
 
-Create Account, Log-in, Log-out,
-------------------------------------------
+### Create Account, Log-in, Log-out,
 - As a new user, I want to be able to launch the app and signs up using my name, email, and enter a password.
     (Email addresses are used to uniquely identify accounts.)
 - As a user, after logging in, if I close the app and relaunch it then the app remembers my credentials and automatically logs me in again. 
@@ -10,8 +9,7 @@ Create Account, Log-in, Log-out,
 - As a user, I can log out to have the app forget my login credentials so that the next time I launch it I am asked for my email address and password again.
 
 
-Manage Account Monitoring
-------------------------------------------
+### Manage Account Monitoring
 - As a user (such as a parent), I am able "monitor" the account of another user (such as my child).
 - As a user, I am able to have 0 or more users monitoring me, and I may monitor 0 or more other users.
 - As a user, I can list the users whom I monitor, and who monitors me.
@@ -24,8 +22,7 @@ Manage Account Monitoring
     The parent account must already exist and is identified by its email address.
 
 
-Create, View, and Join a Walking Group
-------------------------------------------
+### Create, View, and Join a Walking Group
 - As a user, I can see on a map, centred on my GPS coordinates, locations (like schools) to which nearby walking groups around walk.
 - As a user, I can create a new walking group by specifying the location (like a school) to which we will be walking, and one meeting place for the group. When creating it, I give the group a descriptive name.
 - As a user, I can select an existing walking group from the map and join it.
@@ -36,7 +33,7 @@ Create, View, and Join a Walking Group
 
 	 
 
-General Notes:
+### General Notes:
 - UI must be in a separate package from the data "Model".
 - Use a singleton pattern to allow all parts of the UI to access the model.
 - From any screen, the Android back button must do the "reasonable" thing.
@@ -44,8 +41,7 @@ General Notes:
 
 ## Iteration 2 User Stories
 
-User Information
-------------------------------------
+### User Information
 * As a user of the system I want to be able to see and edit my own information so other users who can see it can better contact me.
   All of the additional information is optional, and includes: 
 	- name, birth year & birth month, address, 
@@ -57,18 +53,14 @@ User Information
 
 * As a parent of a child using the system I want to be able to see and edit the information of anyone I monitor (my children), which includes the same type of information as entered about me (see above), so other users can better contact me or my child.
 
-------------------------------------
-Walking Groups
-------------------------------------
+### Walking Groups
 * As a group leader, when I select a walking group I lead, I want to be able to see the names of users who are members in the walking group. Plus for each of those members I can see more in-depth info on all users who monitor them. I use this to remember the names of kids in my walking group, plus look up contact info of their parents whenever I need to contact them (such as for a problem related to their child, or planning a weekend BBQ with all members of the walking group and their parents).
 
 * As a member of a walking group, when I select the group I am in I can see the names of users who are members in the walking group, plus for each of those members I can see more in-depth info on all users who monitor them. I use this to remember the names of other kids in my walking group, plus look up contact info of their parents whenever there is a problem and I need to contact them.
 
 * As a parent with children in walking groups, when I select the group which my child is a member of, I can see the names of users who are members in the walking group, plus for each of those members I can see more in-depth info on all users who monitor them. I use this to know the names of other kids my child is walking with, plus look up contact info of their parents whenever there is a problem and I need to contact them.
 
-------------------------------------
-On Walk Features
-------------------------------------
+### On Walk Features
 * As a member of a group, or a leader of a group, when I'm walking with the group I am able to start the app uploading my GPS location to the server. It uploads my location every 30 seconds so that those who monitor me (or who monitor members of my group if I am the leader) may know where I am. I am able to stop the uploading once I get to school, and the uploading automatically stops 10 minutes after I have reached school.
 
 * As a parent with a child in a walking group, I use the in-app Parent's Dashboard feature, which shows a map, to see the last reported location of my child and the leader as they walk with the group. The parent's dashboard also allows me to see all my children (users I monitor) at once so I can, at a glance, know they are safe and walking it to school as expected. 
@@ -77,8 +69,7 @@ On Walk Features
 
 ## Iteration 3 User Stories
 
-In-App Messages
-------------------------------------
+### In-App Messages
 * As a user, I am able to view any messages which have been sent to me. I can see which messages are read vs unread. From Parent's Dashboard I can always see how many new messages are waiting for me, and easily view (at least unread) messages. App checks for new (or unread) messages every minute. This allows me to receive messages from my children, children in my group, or the leader of a group I'm a member of.
 
 * As the leader of a walking group, I am able able to send out broadcast messages to all members of my group, and those who monitor members of my group. These messages are just plain text. I might use this to announce I am unable to go today (such as sick), or a reminder everyone of something (such as bring an umbrella for the rain expected later). While on the walk I might use this to notify all parents of members of my group that there is an issue, such as we were unable to get to class due to police incident, or being chased by a dog.
@@ -87,10 +78,7 @@ In-App Messages
 
 * As a child who walks with a walking group, when I am walking I am able to send a message (plain text) to all users who monitor me (my parents) and the group leader of any groups I am in. This allows me to let them know of something such as I'm running late, the group never showed up, or some other non-emergency situation. This allows me to use the app to communicate with my parents, but not send an emergency panic message.
 
-========================
-
-Gamification
----------------
+### Gamification
 - As a student, I want the app to reward me for how often I walk with my group. Each time I complete a 
   walk with my group I earn one or more points (each team decides how to reward users with points). 
 
@@ -116,8 +104,7 @@ Gamification
   my walking group), and is sorted from highest-points to lowest points. It is fine if the leader board 
   only shows the top 100 users (or so) if that makes more sense from an app design point of view.
 
-Permissions
------------
+### Permissions
 - As a parent I want to approve or deny requests: 
    * to set my child as the leader of a walking group (likely when my child creates a group).
    * for my child join or leave a walking group.
@@ -133,9 +120,6 @@ Permissions
 	* for me to become a group leader.
 	* for me to join or leave a walking group.
 	* for another user to begin monitoring me.
-[NOTE: Server creates all permission objects, so your app need not worry about what permission
- objects should be created for a given request. However, your app must correctly function
- when the server generates these permission objects.] 
   
 - As a user, I can see all permission requests which have ever been sent to me. For each permission 
   request I can see the details of what action was being requested, and the status of that request 
