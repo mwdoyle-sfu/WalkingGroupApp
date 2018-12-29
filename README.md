@@ -45,7 +45,6 @@ General Notes:
 Iteration 2 User Stories
 ====================================
 
-------------------------------------
 User Information
 ------------------------------------
 * As a user of the system I want to be able to see and edit my own information so other users who can see it can better contact me.
@@ -91,7 +90,7 @@ In-App Messages
 * As a child who walks with a walking group, when I am walking I am able to press a panic button and optionally enter a message (plain text) to indicate that I am having a problem on the walk (likely an emergency). This will notify all users who monitor me (my parents), plus the group leader of any groups I am in. It allows me to quickly report a problem so that I may receive help from them, or to let them know about an emergency. 
 
 * As a child who walks with a walking group, when I am walking I am able to send a message (plain text) to all users who monitor me (my parents) and the group leader of any groups I am in. This allows me to let them know of something such as I'm running late, the group never showed up, or some other non-emergency situation. This allows me to use the app to communicate with my parents, but not send an emergency panic message.
-	Use Cases -- Iteration 3
+
 ========================
 
 Gamification
@@ -120,12 +119,6 @@ Gamification
   user has earned over their lifetime of using the app. The leader board shows all users (not just ones in 
   my walking group), and is sorted from highest-points to lowest points. It is fine if the leader board 
   only shows the top 100 users (or so) if that makes more sense from an app design point of view.
-
-
-- As a developer, I can use the provided web-page to manually award points to users for testing (or TA 
-  marking!) -- DONE FOR YOU!
-
-
 
 Permissions
 -----------
@@ -177,26 +170,3 @@ permission, the server will create one Permission record.
      action, is sufficient for granting all required permissions) then the server completes the requested 
      change without generating a permission request or asking anyone (even the current user) for 
      permission.
-
-   
-   
-
-
-EDGE CASES:
-Q. What happens to pending requests once the last user is removed from monitoring a user?
-   (i.e., what if you had a 'parent' when the request was generated, but now you don't anymore?)
--> The list of who can approve/reject a request is fixed at the time the request is made. 
-   Therefore, the user will still see the requests made before they stopped monitoring the user.
-  
-Q. Won't this make it hard to test?
--> Yes!
-   So there will be a special permission-override header on the HTTP messages to the server which tells 
-   the server when to ask users for permission. This permission-override will be enabled by default so 
-   that existing app functionality does not break. When your app wants to begin triggering permission 
-   requests, you can explicitly disable the override by sending the required header to enable 
-   permissions. 
-
-   (Note that such a header would normally never be allowed on a production server; this is only for our 
-   testing. Expected use of this override header is that once your app supports permissions you 
-   start sending the header on every message to the server to enable permissions. Your final submission 
-   for iteration 3 must send the "enable permissions" header on every message.)	
